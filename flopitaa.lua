@@ -1431,7 +1431,7 @@ for _, QuestNPC in next, game:GetService("Workspace").NPCs.Quest:GetChildren() d
     end
 end
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/UnknowBest/Floppa/main/flopitaa.lua')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/UnknowBest/Floppa/main/floppa.lua')))()
 local Window = OrionLib:MakeWindow({
     Name = "Floppa Hub | Arcane Lineage",
     HidePremium = false,
