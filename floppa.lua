@@ -481,8 +481,8 @@ function OrionLib:MakeWindow(WindowConfig)
 	WindowConfig.IntroText = WindowConfig.IntroText or "Floppa Hub"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
-	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://7445543667"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://7445543667"
+	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://7733765398"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://7733765398"
 	OrionLib.Folder = WindowConfig.ConfigFolder
 	OrionLib.SaveCfg = WindowConfig.SaveConfig
 
