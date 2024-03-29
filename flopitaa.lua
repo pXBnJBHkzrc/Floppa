@@ -1995,8 +1995,6 @@ local Misc = Window:MakeTab({
 
 local Rollback = Misc:AddSection({
     Name = "This Script is free, If you buy this you are getting scam 😩"
-    Name ="The unique resellers are flopi_5 That can sell the script cheap for 7$"
-
  
 })
 Misc:AddButton({
@@ -2023,7 +2021,11 @@ Misc:AddButton({
 
 
 local AntiAFK = Misc:AddSection({
-    Name = "Anti-AFK Built In"
+   Name ="The unique resellers are flopi_5 That can sell the script cheap for 7$
+})
+
+local AntiAFK = Misc:AddSection({
+   Name ="AntiAfk Active"
 })
 
 OrionLib:Init()		
