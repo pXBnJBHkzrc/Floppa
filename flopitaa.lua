@@ -1,8 +1,5 @@
---
---
---local-- -- --UserInputService-- -- --=-- -- --game:GetService("UserInputService")
---local-- -- --TweenService-- -- --=-- -- --game:GetService("TweenService")
---local-- -- --RunService-- -- --=-- -- --game:GetService("RunService")
+-- Obsfuscate By Luarmor Experimental 1.22
+----local-- -- --UserInputService-- -- --=-- -- --game:GetService("UserInputService")--local-- -- --TweenService-- -- --=-- -- --game:GetService("TweenService")--local-- -- --RunService-- -- --=-- -- --game:GetService("RunService")
 --local-- -- --LocalPlayer-- -- --=-- -- --game:GetService("Players").LocalPlayer
 ---- -- --Mouse-- -- --=-- -- --LocalPlayer:GetMouse()
 --
