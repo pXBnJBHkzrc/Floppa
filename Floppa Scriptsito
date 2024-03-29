@@ -1,1 +1,13 @@
-loadstring(game:HttpGet("https://pastebin.com/E2bxERXP"))()
+
+Misc:AddButton({
+    Name = "Enable Rollback",
+    Callback = function()
+        while task.wait() do
+            local ohTable1 = {
+                ["1"] = "\255"
+            }
+            game:GetService("ReplicatedStorage").Remotes.Data.UpdateHotbar:FireServer(ohTable1)
+            print("Rollback Setup")
+        end
+    end
+})
