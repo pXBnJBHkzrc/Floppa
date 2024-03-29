@@ -2021,7 +2021,7 @@ Misc:AddButton({
 
 
 local AntiAFK = Misc:AddSection({
-   Name ="The unique resellers are flopi_5 That can sell the script cheap for 7$
+   Name ="The unique resellers are flopi_5 That can sell the script cheap for 7$"
 })
 
 local AntiAFK = Misc:AddSection({
