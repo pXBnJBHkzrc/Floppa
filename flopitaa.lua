@@ -1998,18 +1998,6 @@ local Rollback = Misc:AddSection({
     Name = "This Script is free, If you buy this you are getting scam 😩"
  
 })
-Misc:AddButton({
-    Name = "Enable Rollback",
-    Callback = function()
-        while task.wait() do
-            local ohTable1 = {
-                ["1"] = "\255"
-            }
-            game:GetService("ReplicatedStorage").Remotes.Data.UpdateHotbar:FireServer(ohTable1)
-            print("Rollback Setup")
-        end
-    end
-})
 
 Misc:AddButton({
     Name = "Rejoin",
@@ -2018,11 +2006,6 @@ Misc:AddButton({
         local p = lp
         ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
     end
-})
-
-
-local AntiAFK = Misc:AddSection({
-   Name ="The unique resellers are flopi_5 That can sell the script cheap for 7$"
 })
 
 local AntiAFK = Misc:AddSection({
