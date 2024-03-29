@@ -1430,7 +1430,7 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/UnknowBest/Floppa/main/floppa.lua')))()
 local Window = OrionLib:MakeWindow({
-    Name = "Floppa Hub | Arcane Lineage | Script Made By xalix2267 & soyunknow ",
+    Name = "Floppa Hub|Arcane Lineage|Script Made By xalix2267",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "FoolArcLin"
@@ -1994,9 +1994,11 @@ local Misc = Window:MakeTab({
 })
 
 local Rollback = Misc:AddSection({
-    Name = "This Script is free, If you buy this you are getting scam 😩 The unique resellers are flopi_5 That can sell the script cheap for 7$"
-})
+    Name = "This Script is free, If you buy this you are getting scam 😩"
+    Name ="The unique resellers are flopi_5 That can sell the script cheap for 7$"
 
+ 
+})
 Misc:AddButton({
     Name = "Enable Rollback",
     Callback = function()
