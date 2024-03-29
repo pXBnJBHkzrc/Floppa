@@ -1431,7 +1431,7 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/UnknowBest/Floppa/main/floppa.lua')))()
 local Window = OrionLib:MakeWindow({
-    Name = "Floppa Hub|Arcane Lineage|Script Made By xalix2267",
+    Name = "Floppa Hub|Arcane Lineage|Script Made By OneFool",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "FoolArcLin"
