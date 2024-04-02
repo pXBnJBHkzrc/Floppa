@@ -1994,11 +1994,6 @@ local Misc = Window:MakeTab({
     PremiumOnly = false
 })
 
-local Rollback = Misc:AddSection({
-    Name = "This Script is free, If you buy this you are getting scam 😩"
- 
-})
-
 Misc:AddButton({
     Name = "Rejoin",
     Callback = function()
